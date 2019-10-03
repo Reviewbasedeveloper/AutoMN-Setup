@@ -1,10 +1,21 @@
 # Guide for ReviewBase AutoMN Setup:
 
-`wget -q https://raw.githubusercontent.com/Reviewbasedeveloper/AutoMN-Setup/master/rview-mn.sh`
 
-`sudo chmod +x rview-mn.sh`
+For **Ubuntu 16.04**
+```
+wget -q https://raw.githubusercontent.com/Reviewbasedeveloper/AutoMN-Setup/master/rview-mn.sh
+sudo chmod +x rview-mn.sh
+./rview-mn.sh
+```
+***
 
-`./rview-mn.sh`
+For **Ubuntu 18.04**
+```
+wget -q https://raw.githubusercontent.com/Reviewbasedeveloper/AutoMN-Setup/master/rview-mn-ubuntu_1804.sh
+sudo chmod +x rview-mn-ubuntu_1804.sh
+./rview-mn-ubuntu_1804.sh
+```
+***
 
 Do you want me to generate a masternode private key for you?[y/n]
 
